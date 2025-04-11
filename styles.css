@@ -1,0 +1,17 @@
+html{
+
+}
+
+#page {
+    background-color: lightyellow;
+    border-color: pink;
+    border-style: solid;
+    border-width: 3px;
+}
+
+
+#nav {
+    text-align:center;
+    display: block;
+
+}
