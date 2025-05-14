@@ -24,7 +24,7 @@ h2 {
 }
 
 p{
-    color: mediumpurple;
+    color: purple;
 
 }
 
@@ -47,22 +47,30 @@ nav{
 
 
 #slides {
+    text-align: center;
+
+}
+
+
+
+#slides img{
     display: block;
-    margin-left: auto;;
-    margin-right: auto;
-    justify-content: center;
-
-}
-
-#slides img {
-    height: 500px;
-    width: 500px;
-    justify-self: center;
-}
-
-img{
-    max-width: 70%;
+    margin: 10px auto;
+    max-width: 900px;
     height: auto;
-    display: block;
-    margin:auto
+
 }
+
+.exhibitions{
+    text-align: center;
+}
+
+.exhibitions img{
+    display: block;
+    margin: 10px auto;
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
