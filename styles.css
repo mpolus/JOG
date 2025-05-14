@@ -1,29 +1,68 @@
-html{
-    font
+html {
+    font-family: Georgia;
+    background-color: blanchedalmond;
 }
 
-#page {
+#content{
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
     background-color: lightyellow;
-    border-color: pink;
+    border-color: lightskyblue;
     border-style: solid;
-    border-width: 3px;
 }
-
-
-#nav {
-    text-align:center;
-    display: block;
-
-}
-
 h1{
+    color: lightskyblue;
+    font-size: 3.5em;
+    text-align: center;
 
 }
 
 h2 {
-
+    color: mediumpurple;
+    text-align: center;
 }
 
 p{
+    color: mediumpurple;
 
+}
+
+
+nav{
+    display: flex;
+    background-color: lightpink;
+    justify-content: space-around;
+    padding: 1em;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#slides {
+    display: block;
+    margin-left: auto;;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+#slides img {
+    height: 500px;
+    width: 500px;
+    justify-self: center;
+}
+
+img{
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin:auto
 }
